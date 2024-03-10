@@ -96,6 +96,19 @@ this.ScenarioInitialize(scenarioInfo);
 #line 9
  testRunner.Given("a user navigates to the website \'https://www.amazon.com/\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line hidden
+#line 10
+ testRunner.When("a user clicks on the search bar", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+#line hidden
+#line 11
+ testRunner.And("input the item \"TP-Link N450 WiFi Router - Wireless Internet Router for Home (TL-" +
+                        "WR940N)\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+#line hidden
+#line 12
+ testRunner.And("", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+#line hidden
+#line 13
+ testRunner.Then("", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line hidden
             }
             this.ScenarioCleanup();
         }

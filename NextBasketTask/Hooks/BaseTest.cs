@@ -5,7 +5,7 @@ using TechTalk.SpecFlow;
 namespace NextBasketTask.Hooks
 {
     [Binding]
-    public sealed class BaseTest
+    public class BaseTest
     {
         public static IWebDriver driver;
         
@@ -13,16 +13,13 @@ namespace NextBasketTask.Hooks
         public void BeforeScenarioWithTag()
         {
             driver = new ChromeDriver();
-            driver.Manage().Window.Maximize();
-            
+            NewMethod();
+
         }
 
-        [BeforeScenario(Order = 1)]
-        public void FirstBeforeScenario()
+        private static void NewMethod()
         {
-            
-
-           
+            driver.Manage().Window.Maximize();
         }
 
         [AfterScenario]
