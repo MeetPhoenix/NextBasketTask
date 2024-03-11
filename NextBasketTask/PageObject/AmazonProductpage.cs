@@ -6,8 +6,9 @@ using System.Threading.Tasks;
 
 namespace NextBasketTask.PageObject
 {
-    internal class AmazonProductpage
+    class AmazonProductpage
     {
+        public AmazonProductpage() { }
 
     }
 }

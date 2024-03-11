@@ -13,20 +13,21 @@ namespace NextBasketTask.Hooks
         public void BeforeScenarioWithTag()
         {
             driver = new ChromeDriver();
-            NewMethod();
-
-        }
-
-        private static void NewMethod()
-        {
             driver.Manage().Window.Maximize();
+
         }
+
+        [BeforeScenario(Order =1)]
+        public void FirstBeforeScenario()
+        {
+            
+        }
+
 
         [AfterScenario]
         public void AfterScenario()
         {
-            driver.Close();
-            driver.Quit();
+            //driver.Quit();
         }
     }
 }
