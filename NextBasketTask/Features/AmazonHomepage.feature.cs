@@ -100,8 +100,8 @@ this.ScenarioInitialize(scenarioInfo);
  testRunner.When("the user clicks on the search bar", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
 #line 11
- testRunner.And("the user input the item \"TP-Link N450 WiFi Router - Wireless Internet Router for " +
-                        "Home (TL-WR940N)\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+ testRunner.And("the user input the item \'TP-Link N450 WiFi Router - Wireless Internet Router for " +
+                        "Home (TL-WR940N)\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
 #line 12
  testRunner.And("the user clicks on the search button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
